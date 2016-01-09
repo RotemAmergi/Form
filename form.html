@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html dir=ltr>
+	<head>
+		<title>Ex3 - Form</title>
+		<link rel="stylesheet" type="text/css" href="include/cssstyle.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<a href="#" id="logo" alt="logo" title="logo"></a>
+				<p id="p1">Join Our Member Club</p>
+			</header>
+			<main id="MainContentIndex">
+				<section id ="mainSec">
+					<form id="formGet"method="get" action="http://html5-book.co.il/teach/forms/get_form2.php">
+					     <label>
+					     Enter Your Full Name:<input class="input" type="text" name=" fullName" value="">
+					     </label>
+						<br><br>
+						 <label>
+					     Enter Your Password:<input class="input" pattern="[a-z][0-9][a-z][0-9][a-z][0-9][a-z][0-9]" type="pass" required name="pass" maxlength="8" value=""  title="A Password  must be a digit between 0 to 9 followed by a lower caseletter and the max length is 8. Example : a1b9c2b6">
+					     </label>
+						<br><br>
+						 <label>
+					     Enter Your Email:<input class="input"  type="email" name="mail" value="">
+					     </label>
+						<br><br>
+						 <label>
+						Enter Your Website:<input class="input"  type="url" name="website" value="">
+					     </label>
+						<br><br>
+						 <label>
+						Enter Your Phone:<input  class="input" type="tel" required name="phone" title="you forgot to fill it" name="phone" maxlength="10" value="">
+					     </label>
+						<br><br>
+						 <label>
+						Enter The Amount of coffee you drink a day:<input class="input" type="number" name="coffee" value="0" min="0"max="100">
+					     </label>
+						<br><br>
+						 <label>
+						Enter The temperature now:<input  class="input" type="range" name="temper" value="">
+					     </label>
+						<br><br>
+						 <label>
+						Enter Your address:<textarea  class="input" name="address" rows="3" cols="20"></textarea>
+						</label>
+						<br><br>
+						<label>
+						Enter Your interest:<br>
+						<label id="interest">Reading books <input type="checkbox" name="interests[]" value="Reading Books"></label><br>
+						<label id="interest">Play with my children <input type="checkbox" name="interests[]" value="Play with my children"></label><br>
+						<label id="interest">Sleeping <input type="checkbox" name="interests[]" value="Sleeping"></label><br>
+					    </label>
+						<br>
+						<label>
+						Enter Your gander:
+						<label id="gender">Men <input type="radio" name="gender" value="Men"></label><br>
+						<label id="gender">Female <input type="radio" name="gender" value="Female"></label><br>
+					     </label>
+						<br><br>
+						 <label>
+						Enter Your age:<input class="input" name="age" pattern="[0-9][0-9]" value="0" min="18"max="90" title="The minemum age for register is 18. ">
+					     </label>
+						<br><br>
+						<label>What is your favorite animal :
+ 						<input class="input" type="text" list="animals" name="animals">
+ 						<datalist  id="animals">
+ 						<option value="Dog" label="Dog">
+ 						<option value="Fish" label="Fish">
+ 						<option value="Cat" label="Cat">
+ 						<option value="Rabbit" label="Rabbit">
+ 						<option value="Snake" label="Snake">
+ 						</datalist></label>
+						<br><br>
+					   <input id ="send" type="submit" name="send" value="Send">
+					</form>
+				</section>
+			</main>
+		</div>
+</body>
+<footer id="footer"></footer>
+</html>

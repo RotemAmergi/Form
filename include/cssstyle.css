@@ -1,0 +1,80 @@
+* {
+padding:0px;
+margin:0px;
+}
+
+header,section,nav,aside,footer,main, article,a {
+display:block;
+}
+
+body {
+background:#d7d7d7;	
+width:1000px;
+margin: auto;
+padding-top: 10px;
+}
+
+
+#wrapper {
+margin: 0px auto;
+width:1000px;
+}
+
+header {
+	width:1000px;
+	height:100px;
+	background:#3f3f3f;
+}
+
+#p1{
+	font-size: 70px;
+	font-weight:bold;
+	font-family:"Bookman Old Style";
+	color:white;
+	margin-left:80px;
+	
+}
+#MainContentIndex {
+	width:1000px;
+	height:834px;
+	background:#f9f9f9;
+	float:left;
+}
+
+#mainSec{
+	width:800px;
+	height:834px;
+	margin-left:50px;
+	margin-top:60px;
+}
+label{
+	color:blue;
+	font-family:"Bookman Old Style";
+	margin-left:10px;
+	font-size: 20px;
+}
+
+#gender, #interest{
+	color:blue;
+	font-family:"Bookman Old Style";
+	float:right;
+	font-size: 20px;
+}
+.input{
+	float:right;
+}
+#send{
+	font-size: 25px;
+	font-family:"Bookman Old Style";
+	margin-left:380px;
+	margin-top:40px;
+}
+
+
+#footer {
+	width:1000px;
+	height:70px;
+	background:#3f3f3f;
+	position:absolute;
+	margin-top:764px;
+}
